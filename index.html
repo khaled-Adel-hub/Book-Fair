@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+    <title>Book Fair</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="box" id="bg">
+            <h1>Welcome to the <br> Book Fair</h1>
+            <p>Explore books, authors, and upcoming book <br> fair events</p>
+            <button>Explore</button>
+        </div>
+        <div class="box" id="log">
+            <div id="sign">
+                <h1>Registration / Sign Up</h1>
+                <form action="">
+                    <label for="Full Name">Full Name</label>
+                    <input type="text" id="Full Name">
+                    <br>
+                    <label for="Email Address">Email Address</label>
+                    <input type="email" id="Email Address">
+                    <br>
+                    <label for="Password">Password</label>
+                    <input type="password" id="Password">
+                    <br>
+                    <label for="Confirm Password">Confirm Password</label>
+                    <input type="password" id="Confirm Password">
+                    <br>
+                    <input id="button" onclick="b1()" type="button" value="Register">
+                </form>
+                <p>
+                    Already have an account? <a href="file:///C:/D/College/collegeProject/capastone/login.html">Log
+                        in</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <img class="img" id="img1" src="imges/book.png" alt="">
+    <img class="img" id="img2" src="imges/book2.png" alt="">
+    <img class="img" id="img3" src="imges/book3.png" alt="">
+    <h1 id="welcome">Welcome to <br> Book <span>Fair</span></h1>
+    <script>
+        function b1() {
+            window.location.href = "file:///C:/D/College/collegeProject/capastone/home.html"
+        }
+    </script>
+</body>
+
+</html>

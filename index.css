@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bar {
+    padding: 30px 0 30px 10%;
+}
+
+#bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+#bar #opend {
+    color: #B8860B;
+    text-decoration: underline;
+    font-size: 25px;
+    padding-left: 10%;
+}
+
+#bar .bar {
+    padding-left: 10%;
+    transition: .3s;
+}
+
+#bar .bar:hover {
+    color: #B8860B;
+}
+
+#home-bg {
+    background-image: url(imges/home-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 95%;
+    height: 88vh;
+    border-radius: 20px;
+    margin: 0 2.5%;
+}
+
+#home-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 25px;
+}
+
+#home-text h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+#home-text p {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#button button {
+    width: 35vh;
+    height: 5.5vh;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b1 {
+    border: 0;
+    color: white;
+    background-color: #234f70;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.b1:hover {
+    background-color: #16354c;
+    box-shadow: 0 0 15px gray;
+}
+
+.b2 {
+    background: transparent;
+    color: black;
+    border: 3px solid #D98A29;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.b2:hover {
+    color: black;
+    background-color: #B8860B;
+    border: 0;
+    box-shadow: 0 0 15px gray;
+}
+
+/* Book Tickets */
+.blur-bg {
+    position: absolute;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.container {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 70%;
+    height: 80vh;
+    border: 2px solid #B8860B;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#container h1 {
+    font-size: 50px;
+}
+
+#container h2 {
+    font-size: 30px;
+}
+
+#box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid #B8860B;
+    border-radius: 10px;
+    margin: 0 .7%;
+    padding: 20px;
+    height: 48vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.box h2 {
+    color: #B8860B;
+}
+
+.box i {
+    font-size: 75px;
+    padding: 8px 0;
+}
+
+#container .b1 {
+    width: 30%;
+    height: 5.5vh;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#num {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#num h4 {
+    margin: 0 5px;
+}
+
+.box #b1 {
+    width: 90%;
+}
+
+/* Book Tickets */
+/* events */
+#container {
+    width: 90%;
+    height: 95vh;
+    border: 2px solid #B8860B;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#search-bar {
+    width: 100%;
+}
+
+#search-bar form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#search-bar #search {
+    width: 25%;
+    height: 22px;
+}
+
+#search-bar .search {
+    background: rgba(128, 128, 128, 0.586);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 20px;
+    padding: 1px;
+}
+
+.select select {
+    background-color: rgba(128, 128, 128, 0.586);
+    height: 22px;
+}
+
+#select1 select {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#select2 select {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#select select {
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#big-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#left-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#left-box .left-card {
+    border: #B8860B 1px solid;
+    margin: 2% 3%;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+#left-box .inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#left-box .inline i {
+    font-size: 70px;
+    margin: 0 15%;
+}
+
+#left-box .inline p {
+    width: 60%;
+    text-align: left;
+}
+
+#left-box .inline span {
+    color: #B8860B;
+    font-size: larger;
+}
+
+#left-box .inline1 .b1 {
+    width: 75%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#left-box .inline1 i {
+    font-size: larger;
+}
+
+#left-box .inline1 .heart {
+    border: none;
+    background-color: rgba(245, 222, 179, 0);
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#left-box .inline1 .heart-active{
+    color: red;
+}
+#right-box .right-card {
+    border: #B8860B 1px solid;
+    margin: 2% 3%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+}
+
+#right-box .right-card hr {
+    border-color: black;
+    width: 95%;
+    margin: 4px 0;
+}
+
+#right-box .inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#right-box .inline i {
+    font-size: 50px;
+    margin: 0 8%;
+}
+
+/* events */
+
+@media(max-width:1000px) {
+    #bar {
+        padding: 25px 0 25px 7.5%;
+    }
+
+    #bar a {
+        font-size: 18px;
+    }
+
+    #bar #opend {
+        font-size: 20px;
+        padding-left: 8%;
+    }
+
+    #bar .bar {
+        padding-left: 8%;
+    }
+
+    #home-text h1 {
+        font-size: 38px;
+        padding-bottom: 28px;
+        text-align: center;
+    }
+
+    #home-text p {
+        font-size: 19px;
+    }
+
+    #button button {
+        width: 28vh;
+        height: 5vh;
+    }
+
+    /* Book Tickets */
+
+    #container {
+        width: 90%;
+        height: 85vh;
+        gap: 15px;
+    }
+
+    #container h1 {
+        font-size: 40px;
+    }
+
+    #container h2 {
+        font-size: 25px;
+    }
+
+    .box {
+        padding: 10px;
+        height: 50vh;
+        gap: 8px;
+    }
+
+    .box i {
+        font-size: 90px;
+    }
+
+    /* Book Tickets */
+    /* events */
+    #container {
+        width: 95%;
+        height: auto;
+        overflow: auto;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    #left-box {
+        grid-template-columns: auto auto;
+    }
+
+    #left-box .inline i {
+        font-size: 50px;
+    }
+
+    #left-box .inline p {
+        width: 65%;
+        font-size: small;
+    }
+
+    #left-box .inline span {
+        font-size: medium;
+    }
+
+    #left-box .inline1 .b1 {
+        height: 27px;
+    }
+
+    #right-box .inline i {
+        font-size: 35px;
+    }
+
+    /* events */
+}
+
+@media (max-width:600px) {
+    #bar {
+        padding: 25px 0 25px 5%;
+    }
+
+    #bar a {
+        font-size: 14px;
+    }
+
+    #bar #opend {
+        font-size: 15px;
+        padding-left: 5%;
+    }
+
+    #bar .bar {
+        padding-left: 5%;
+    }
+
+    #home-text h1 {
+        font-size: 28px;
+        padding-bottom: 28px;
+    }
+
+    #home-text p {
+        font-size: 15px;
+    }
+
+    #button button {
+        width: 15vh;
+        height: 4vh;
+    }
+
+    /* Book Tickets */
+    .container {
+        height: auto;
+    }
+
+    #container {
+        width: 95%;
+        height: auto;
+        gap: 8px;
+        border: none;
+    }
+
+    #container h1 {
+        font-size: 30px;
+    }
+
+    #container h2 {
+        font-size: 18px;
+    }
+
+    #box {
+        flex-direction: column;
+    }
+
+    .box {
+        padding: 10px;
+        height: auto;
+        width: auto;
+        gap: 8px;
+    }
+
+    .box h3 {
+        font-size: 15px;
+    }
+
+    .box i {
+        font-size: 50px;
+    }
+
+    /* Book Tickets */
+    /* events */
+    #search-bar #search {
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    #search-bar .search {
+        margin-right: 10px;
+    }
+
+    .select select {
+        font-size: 9px;
+    }
+
+    #select select {
+        margin-left: 5px;
+    }
+
+    #left-box .inline {
+        margin-bottom: 6px;
+    }
+
+    #left-box .inline i {
+        font-size: 27px;
+    }
+
+    #left-box .inline p {
+        width: 70%;
+        font-size: 8px;
+    }
+
+    #left-box .inline span {
+        font-size: 10px;
+    }
+
+    #left-box .inline1 .b1 {
+        width: 60%;
+        height: 25px;
+        border-radius: 8px;
+    }
+
+    #left-box .inline1 i {
+        font-size: small;
+    }
+
+    #right-box .inline {
+        margin-bottom: 5px;
+    }
+
+    #right-box .inline i {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+/* الجزء الشمال */
+#bg {
+    background-image: url(imges/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10%;
+    gap: 20px;
+}
+
+#bg h1 {
+    font-size: 70px;
+}
+
+#bg p {
+    font-size: 20px;
+}
+
+#bg button {
+    width: 19vh;
+    height: 6vh;
+    border: 0;
+    border-radius: 15px;
+    color: #234f70;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#bg button:hover {
+    background-color: #234f70;
+    color: white;
+    transform: scale(1.08);
+    box-shadow: 0 0 8px gray;
+}
+
+/* الجزء اليمين */
+
+#log {
+    display: flex;
+    background-color: #e0f2f1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign {
+    background-color: white;
+    width: 67%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#sign form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5%;
+}
+
+#sign form input {
+    width: 95%;
+    height: 30px;
+    ;
+}
+
+#sign form #button {
+    height: 6vh;
+    border: 0;
+    border-radius: 15px;
+    color: white;
+    background-color: #234f70;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#sign form #button:hover {
+    background-color: #16354c;
+}
+
+#sign a {
+    color: #234f70;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#sign a:hover {
+    color: blue;
+}
+
+.img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+
+#img1 {
+    right: 10vh;
+    bottom: 7vh;
+    transform: rotate(40deg);
+}
+
+#img2 {
+    right: 87vh;
+    top: 20vh;
+    transform: rotate(-40deg);
+}
+
+#img3 {
+    right: 87vh;
+    bottom: 20vh;
+    transform: rotate(-40deg);
+}
+
+#welcome {
+    display: none;
+}
+
+@media (max-width:1400px) {
+    .img {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    #bg {
+        padding-left: 5%;
+        gap: 15px;
+    }
+
+    #bg h1 {
+        font-size: 45px;
+    }
+
+    #bg p {
+        font-size: 17px;
+    }
+
+    #bg button {
+        width: 15vh;
+        height: 5vh;
+        font-size: 15px;
+    }
+
+    #sign {
+        width: 90%;
+        height: 70%;
+    }
+}
+
+
+@media (max-width:500px) {
+    #bg {
+        display: none;
+    }
+
+    #log {
+        display: flex;
+        background-image: url(imges/bg-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #sign {
+        margin-top: 30%;
+        gap: 35px;
+    }
+
+    #welcome {
+        display: block;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        position: absolute;
+        top: 7vh;
+        left: 20%;
+    }
+
+    #welcome span {
+        background-color: #234f70;
+    }
+}
