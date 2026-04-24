@@ -391,7 +391,7 @@
     width: 30%;
 }
 #flow{
-    position: fixed;
+    position: absolute;
     right: 8%;
     top: 30%;
     background-color: rgba(255, 255, 255, 0.675);
@@ -416,6 +416,66 @@
     height: 25px;
 }
 /* publishers */
+/* Account */
+#container-account {
+    width: 90%;
+    height: 85vh;
+    border: 2px solid #B8860B;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#container-account #profile {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px 7.5%;
+}
+#container-account #profile i{
+    font-size: 70px;
+    margin-right: 15px;
+}
+#bg-color{
+    background-color:#16354c;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#container-account #internal-container{
+    display: flex;
+    width: 100%;
+}
+#container-account .internal-box{
+    background-color: rgba(255, 255, 255, 0.508);
+    border: 2px solid #B8860B;
+    border-radius: 10px;
+    margin-left: 5%;
+    padding: 10px 20px;
+}
+#container-account .internal-box h2{
+    color: #B8860B;
+    margin-bottom: 45px;
+}
+#container-account .internal-box p{
+    margin-bottom: 25px;
+    font-size: larger;
+}
+#container-account .internal-box p span{
+    font-size: medium;
+    margin-left: 40px;
+}
+#container-account #internal-box{
+    margin-left: 15%;
+    padding: 60px 120px;
+}
+#container-account #b1 {
+    width: 40%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 25px 7.5px 0 7.5px;
+}
+/* Account */
 
 @media(max-width:1000px) {
     #bar {
@@ -514,6 +574,25 @@
     }
 
     /* events */
+    /* Account */
+#bg-color{
+    padding: 7.5px 15px;
+}
+#container-account .internal-box h2{
+    margin-bottom: 40px;
+}
+#container-account .internal-box p{
+    margin-bottom: 20px;
+    font-size: large;
+}
+#container-account .internal-box p span{
+    margin-left: 28px;
+}
+#container-account #internal-box{
+    margin-left: 7.5%;
+    padding: 40px 50px;
+}
+/* Account */
 }
 
 @media (max-width:600px) {
@@ -647,5 +726,48 @@
 #flow{
     display: none;
 }
+#left-box .inline2 p {
+    font-size: 9px;
+}
+
+#left-box .inline2 #span {
+    color: #B8860B;
+    font-size: 12px;
+}
     /* publisher */
+    /* Account */
+    #container-account {
+    width: 100%;
+    height: auto;
+}
+#container-account #profile i{
+    font-size: 35px;
+}
+#bg-color{
+    padding: 4px 8px;
+}
+#container-account #internal-container{
+    flex-direction: column;
+    justify-content: center;
+}
+#container-account .internal-box{
+    margin-left: 0%;
+    padding: 5px 10px;
+}
+#container-account .internal-box h2{
+    margin-bottom: 40px;
+}
+#container-account .internal-box p{
+    margin-bottom: 20px;
+    font-size: medium;
+}
+#container-account .internal-box p span{
+    font-size: smaller;
+    margin-left: 35px;
+}
+#container-account #internal-box{
+    margin: 10% 0 50% 0;
+    padding: 10px 20px;
+}
+/* Account */
 }

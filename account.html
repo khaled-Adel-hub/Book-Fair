@@ -1,18 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Account</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div id="bar">
         <a class="bar" href="home.html">Home</a>
         <a class="bar" href="book.html">Book</a>
-        <a class="bar"  href="event.html">Events</a>
+        <a class="bar" href="event.html">Events</a>
         <a class="bar" href="publishers.html">publishers</a>
         <a id="opend" href="">Account</a>
     </div>
+    <div id="home-bg" class="blur-bg"></div>
+    <div class="container">
+        <div id="container-account">
+            <div id="profile">
+                <i class="fa-solid fa-circle-user"></i>
+                <h2>Wellcome [Khaled Adel]</h2>
+            </div>
+            <div id="internal-container">
+                <div class="internal-box">
+                    <p id="bg-color">My Profile</p>
+                    <p>My Bookings</p>
+                    <p>Payment Methods</p>
+                    <p>Favorite</p>
+                    <p>Log Out</p>
+                </div>
+                <div class="internal-box" id="internal-box">
+                    <h2>Profile Details</h2>
+                    <p>Full Name: <span>Khaled Adel</span></p> 
+                    <p>Email Address: <span>khaledadel@example.com</span></p> 
+                    <p>Phone Number: <span>+1 234 567 890</span></p> 
+                    <div>
+                        <button id="b1" class="b1">Change Password</button>
+                        <button id="b1" class="b1">Manage Account</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
