@@ -720,6 +720,13 @@
     #right-box .inline i {
         font-size: 18px;
     }
+    #right-box h3{
+        font-size: 13px;
+    }
+    #right-box p{
+        font-size: 9px;
+    }
+    /* event */
     /* publisher */
     #right-space{
     width: 0%;
@@ -734,6 +741,9 @@
 #left-box .inline2 #span {
     color: #B8860B;
     font-size: 12px;
+}
+#left-box .inline2 #logo{
+    font-size: 40px;
 }
     /* publisher */
     /* Account */
