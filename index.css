@@ -706,6 +706,7 @@
         width: 60%;
         height: 25px;
         border-radius: 8px;
+        font-size: 10px;
     }
 
     #left-box .inline1 i {
